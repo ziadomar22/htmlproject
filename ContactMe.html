@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <section>
+        <h2>Get in Touch</h2>
+        <p>I'd love to hear from you! Whether you have a question, a suggestion, or just want to say hello, feel free to reach out.</p>
+    </section>
+
+    <section>
+        <h2>Email</h2>
+        <p>You can contact me via email at <a href="mailto:your.email@example.com">Ziad.Omar@example.com</a>.</p>
+    </section>
+
+    <section>
+        <h2>Social Media</h2>
+        <p>Feel free to connect with me on social media:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://twitter.com/your-profile" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Send a Message</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ziad Omar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
